@@ -1,0 +1,13 @@
+provider "aws" {
+  region = var.aws_region
+  # Use AWS credentials file or environment variables instead of hardcoding
+  # https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication
+  
+  # Option 1: Use AWS credentials file (~/.aws/credentials)
+  # shared_credentials_file = "~/.aws/credentials"
+  # profile = "default"
+  
+  # Option 2: Use environment variables
+  # AWS_ACCESS_KEY_ID
+  # AWS_SECRET_ACCESS_KEY
+}

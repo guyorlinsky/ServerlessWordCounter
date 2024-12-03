@@ -1,0 +1,61 @@
+# .NET build outputs
+bin/
+obj/
+*.zip
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Local development settings
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.[Cc]ache
+
+# Credentials and secrets
+**/aws.credentials
+*.pem
+*.key
+secrets.json
+.env
+*.pfx
+*.publishsettings
+
+# Build and deploy artifacts
+**/publish/
+**/debug/
+**/release/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup & Report Files
+*.bak
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
